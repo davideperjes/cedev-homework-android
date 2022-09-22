@@ -1,6 +1,6 @@
 # Marvel Character Browser
 ## Task
-Your task will be to create a simple Android mobile application where users can search for Marvel characters based on their names. If the user starts typing into an input field, the app should start fetching the data from the API and show it to the user in a list.
+Your task will be to create a simple Android mobile application where users can search for Marvel characters based on their names. If the user starts typing into an input field, the app should start fetching the data from the Marvel API and show it to the user in a list.
 
 The list items should display information about the characters, such as their **names**, a **thumbnail** image, and a **description** text, which should be limited in 100 characters.
 
@@ -9,6 +9,8 @@ When the user taps on a character in the list, it should open a web browser with
 When the user scrolls down in the list, the app should fetch more characters lazily (pagination).
 
 ## API
+
+Documentation: https://developer.marvel.com/documentation/generalinfo
 
 ### Character endpoint
 
